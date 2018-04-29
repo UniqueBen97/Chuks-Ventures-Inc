@@ -625,7 +625,9 @@ MEDIA QUERIES TABLET
         font-family: 'zilap';
         font-size: 34px !important;
         text-decoration: none;
-        color: pink !important;
+        color: orange !important;
+        text-shadow: 4px 0px black;
+
     }
     nav {
         position: fixed;
