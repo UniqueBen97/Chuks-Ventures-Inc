@@ -172,8 +172,13 @@ div#bs-example-navbar-collapse-1 {
     text-align: center;
     text-decoration: none !important;
 }
+@font-face {
+  font-family: 'zilap';
+  src: url('../fonts/Zilap Monograma DEMO.ttf');
+  font-weight: normal;
+}
 .navbar-brand{
-    font-family: 'Pacifico', cursive;
+    font-family: 'zilap';
     font-size: 34px !important;
     text-decoration: none;
     color: white !important;
@@ -217,10 +222,15 @@ INTRO CONTAINER
     padding: 0;
 }
 .top-title{
-    color: White;
-    font-family: 'Playball', cursive;
-    font-size: 80px;
+    color: orange;
+    font-family: 'zilap';
+    font-size: 4.7vw;
     font-weight: 400;
+    outline-style: ridge;
+    outline-color: rgb(14, 30, 80);
+    outline-width: thick;
+    outline-offset: -4px;
+    text-shadow: 4px 0px black;
  }
 .second-title {
     font-weight: lighter;
@@ -612,10 +622,10 @@ MEDIA QUERIES TABLET
         padding-right: -15px;
     }
     .navbar-brand{
-        font-family: 'Pacifico', cursive;
+        font-family: 'zilap';
         font-size: 34px !important;
         text-decoration: none;
-        color: white !important;
+        color: pink !important;
     }
     nav {
         position: fixed;
